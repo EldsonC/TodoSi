@@ -1,0 +1,17 @@
+<div class="containner-card" *ngFor="let iten of itens">
+    <div class="marked-place">
+        <input type="checkbox" class="checkbox-style">
+        <div class="task-name">
+            <span>{{ iten }}</span>
+        </div>
+    </div>
+    <div class="btn-action-task">
+        <div class="btn-trash btn-style">
+            <img src="../../../../assets/img/trash.png" width="20" alt="btn-drag">
+        </div>
+        <div class="btn-drag btn-style">
+            <img src="../../../../assets/img/drag.png" width="20" alt="btn-drag">
+        </div>
+    </div>
+</div>
+

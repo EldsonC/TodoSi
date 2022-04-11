@@ -1,0 +1,23 @@
+<div class="containner-sheet-card">
+    <nav class="header-menu">
+        <div class="containner-menu">
+            <div class="tilte-task">
+                <span>Day by day</span>
+            </div>
+            <div class="btns-task">
+                <div class="btn-action" id="btn-sheet">
+                    <!-- <img src="../../../../assets/img/sheet.png" width="30" alt="add-sheet"> -->
+                </div>
+                <div class="btn-action" id="btn-task" >
+                    <div class="input-task">
+                        <input type="text" placeholder="Insert Task" #newTask>
+                        <button class="btn-add" (click)="addNewTask(newTask.value)">ADD</button>
+                    </div>
+                    <!-- <img src="../../../../assets/img/task.png" width="30" alt="add-task"> -->
+                </div>
+                
+            </div>
+        </div>
+    </nav>
+    <app-cards-list [newTask]="currentTask"></app-cards-list>
+</div>

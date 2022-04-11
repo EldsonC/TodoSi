@@ -1,0 +1,42 @@
+.containner-card {
+    margin-top: 20px;
+    width: 450px;
+    height: 40px;
+
+    border-bottom: 1px solid white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.marked-place {
+    display: flex;
+    align-items: center;
+}
+.task-name span {
+    padding-left: 15px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+
+    text-transform: capitalize;
+}
+.btn-action-task {
+    display: flex;
+}
+.btn-style {
+    width: 30px;
+    height: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-drag {
+    cursor: grab;
+}
+.btn-trash {
+    cursor: pointer;
+}
+

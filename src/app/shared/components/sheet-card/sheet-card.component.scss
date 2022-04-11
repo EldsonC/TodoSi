@@ -1,0 +1,91 @@
+.containner-sheet-card {
+    width: 500px;
+    height: 600px;
+
+    background-color: linear-gradient(229.32deg, #CB5356 0%, #873D50 100%);
+    box-shadow: 0px 15px 81px 0px #00000066;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-menu {
+    width: 100%;
+    height: 45px;
+
+    background: linear-gradient(221.97deg, #622C44 0%, #231434 100%);
+    border-radius: 20px 20px 0px 0px;
+
+    display: flex;
+    justify-content: center;
+}
+.containner-menu {
+    width: 90%;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tilte-task span {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #AC5554;
+
+    text-transform: uppercase;
+}
+.btns-task {
+    display: flex;
+}
+.btn-action {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    flex-direction: row;
+
+    cursor: pointer;
+}
+.input-task {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.input-task input {
+    padding-left: 15px;
+
+    width: auto;
+    height: 30px;
+    background: #ac55546e;
+
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+    outline: none;
+
+    color: white;
+}
+.btn-add {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+    height: 30px;
+    background: #ac5554a1;
+
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+    outline: none;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+
+    cursor: pointer;
+}
+.btn-add:hover {
+    background: #ac5554;
+}

@@ -1,0 +1,46 @@
+.nav-social {
+    width: 500px;
+    height: 100vh;
+
+    background-image: url('../../../assets/img/star.svg'), linear-gradient(221.97deg, #622C44 0%, #231434 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    position: relative;
+    float: right;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containner-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-logo {
+    margin-top: 30px;
+    padding-left: 25px;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #AC5554;
+
+    text-transform: uppercase;
+    letter-spacing: 25px;
+}
+.redes-socias {
+    margin-top: 20px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.containner-todo-list {
+    width: calc(100% - 500px);
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
